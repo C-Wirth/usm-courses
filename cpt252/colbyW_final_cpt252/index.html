@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Hair by Iralys Estevez</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        #welcome1 {
+            display: grid;
+            grid-template-columns: 2.5% 95% 2.5%;
+            grid-template-rows: 35% 65%;
+            font-size: 1.5vw;
+            grid-row: 1/2;
+            grid-column: 1/2;
+            padding: 2vw;
+            margin: 5vw;
+        }
+
+        #welcome1Header {
+            font-family: 'Zapfino', 'Segoe Script', cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+            text-shadow: .25vw .25vw 0.25vw rgba(139, 154, 255, 0.5);
+            line-height: 2;
+            font-size: 3vw;
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+
+        #welcomeText {
+            grid-column: 2/3;
+            grid-row: 2/3;
+            line-height: 2;
+        }
+
+        #welcomeText a {
+            color: #8B9AFF;
+        }
+
+        #blonde-text,
+        #brown-text,
+        #colors-text,
+        #gentleman-text,
+        #curls-text {
+            position: absolute;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            text-decoration: overline underline;
+            align-items: center;
+            justify-content: center;
+            color: #fff08b;
+            font-family: 'Zapfino', 'Segoe Script', cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+            font-size: 2.0vw;
+        }
+
+        #brown-text {
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+
+        #blonde-text {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+
+        #colors-text {
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+
+        #gentleman-text {
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+
+        #curls-text {
+            grid-column: 2/3;
+            grid-row: 3/4;
+        }
+
+        #brown1 {
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+
+        #blonde8 {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+
+        #red1 {
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+
+        #curl1 {
+            grid-column: 2/3;
+            grid-row: 3/4;
+        }
+
+        #man1 {
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+
+
+        @media (max-width: 767px) {
+            /*Phones and small Tablets*/
+
+            #blonde-text,
+            #brown-text,
+            #colors-text,
+            #gentleman-text,
+            #curls-text {
+                grid-column: 1;
+                align-content: center;
+                justify-content: center;
+                height: 50vw;
+                font-size: 5.0vw;
+            }
+
+            #brown-text {
+                grid-row: 2;
+            }
+
+            #blonde-text {
+                grid-row: 3;
+            }
+
+            #colors-text {
+                grid-row: 4;
+            }
+
+            #gentleman-text {
+                grid-row: 5;
+            }
+
+            #curls-text {
+                grid-row: 6;
+            }
+
+            #welcome1 {
+                grid-row: 1;
+                grid-column: 1;
+            }
+
+            #brown1 {
+                grid-row: 2;
+                grid-column: 1;
+            }
+
+            #blonde8 {
+                grid-row: 3;
+                grid-column: 1;
+            }
+
+            #red1 {
+                grid-row: 4;
+                grid-column: 1;
+            }
+
+            #man1 {
+                grid-row: 5;
+                grid-column: 1;
+            }
+
+            #curl1 {
+                grid-row: 6;
+                grid-column: 1;
+            }
+
+            #welcome1Header {
+                font-size: 6vw;
+                margin: 4vw;
+            }
+
+            #welcomeText {
+                font-size: 3vw;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <header>
+
+            <h1>Iralys Estevez</h1>
+
+            <p>color&emsp;•&emsp;curls&emsp;•&emsp;cuts&emsp;•&emsp;confidence</p>
+
+        </header>
+
+        <nav>
+
+            <div id="nav-left">
+
+                <a href="https://www.instagram.com/viva.la.hair/" target="_blank">
+                    <img src="images/igWhite.png"  alt="Instagram" class="igIcon">
+                </a>
+
+            </div>
+
+            <div id="nav-center">
+
+                <ul>
+
+                    <li><a href="index.html">home</a></li> |
+                    <li><a href="services.html">services</a></li> |
+                    <li><a href="booking.html">book</a></li> |
+                    <li>
+                        
+                        <div class="dropdown">
+
+                            <button class="dropbutton">color
+                           
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="blonde.html">blonde</a>
+                              <a href="brunette.html">brunette</a>
+                              <a href="fashion.html">fashion</a>
+                            </div>
+                          </div>
+
+                    </li> |
+                    <li><a href="mens.html">mens</a></li> |
+                    <li><a href="curls.html">natural curls</a></li> |
+                    <li><a href="extensions.html">extensions</a></li> |
+                    <li><a href="about.html">about</a></li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+        <div id="gallery">
+
+            <div id="welcome1">
+
+                <div id="welcome1Header">
+                    Hello, Beautiful.
+                </div>
+
+                <div id="welcomeText">
+
+                    Iralys has all of your hair needs covered.&ensp;
+                    With two years of indsutry experience, she is an expert in all things hair.
+                    She will make sure you leave confident, stylish, and satisfied.
+                    Currently employed by
+                    <a href="https://www.shinesalonme.com/" target="_blank"> Shine Salon</a>
+                    in Westbrook, Maine, Iralys has built a name for herself locally.
+                    <a href="booking.html"> Contact Iralys</a>
+                    today for your next consultation.
+
+                </div>
+
+            </div>
+
+
+            <img src="images/brown1.jpg" id="brown1" alt="Another GORGEOUS brunette!">
+
+            <img src="images/blonde8.jpg" alt="Picture-Perfect dirty blonde done by Iralys!">            
+            
+            <img src="images/red1.jpg" id="red1" alt="We absolutely love Crimson Red!">
+
+            <img src="images/man1.jpg" id="man1" alt="We take care of our gentlemen as well.">
+
+            <img src="images/curl1.jpg" id="curl1" alt="Come in, Curl Queens.">
+
+            <div id="blonde-text">
+                <a href="blonde.html">Beautiful Blondes</a>
+            </div>
+
+            <div id="brown-text">
+                <a href="brunette.html">Bold Brunettes</a>
+            </div>
+
+            <div id="colors-text">
+                <a href="fashion.html">Unconforming Colors</a>
+            </div>
+
+            <div id="gentleman-text">
+                <a href="mens.html">Glaring Gentlemen</a>
+            </div>
+
+            <div id="curls-text">
+                <a href="curls.html">Curl Queens</a>
+            </div>
+
+        </div>
+
+        <footer>
+
+            <div id="footer-left">
+                <a href="https://www.instagram.com/viva.la.hair/" target="_blank">
+                    <img src="images/igWhite.png" class="igIcon" alt="Instagram">
+                </a>
+            </div>
+
+            <div id="footer-center">
+
+                <a href="index.html">Home</a>
+                |
+                <a href="booking.html">Get beautified today</a>
+                |
+                <a href="about.html">About</a>
+                |
+                <a href="mailto:iralys.hair@example.com">Email Iralys directly</a> 
+                |
+                © 2024 by Iralys Estevez
+
+                <h6>Designed by Colby Wirth</h6>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

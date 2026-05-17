@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+
+    <head>
+
+        <title> CPT 252 | Ch9 | Ex 1</title>
+
+        <meta charset="utf-8">
+
+        <style>
+
+            fieldset {
+                display: flex;
+                flex-direction: column;
+                width: min-content;
+            }
+
+            form {
+                margin-top: 10px;
+                margin-bottom: 50px;
+            }
+
+            input[type="radio"]{
+            margin-left: 25px;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Exercise 1</h1>
+        </header>
+
+
+            <!--Ex 1.a-->
+        <form>
+            Username: <input type = "text" name ="username" id="user" maxlength="30">
+        </form>
+
+            <!--Ex 1.b-->
+        <form>
+
+            Favorite Month:
+
+            <div class="radios">
+
+                    <input type = "radio" name ="Favorite Month" id = "monthJanuary" value ="January">
+                    <label for = "monthJanuary"> January </label>
+
+                    <input type = "radio" name ="Favorite Month" id = "monthFebruary" value ="February">
+                    <label for = "monthFebruary"> February </label>
+
+                    <input type = "radio" name ="Favorite Month" id = "monthMarch" value ="March">
+                    <label for = "monthMarch"> March </label>
+                    
+                    <input type = "radio" name ="Favorite Month" id = "monthApril" value ="April">
+                    <label for = "monthApril"> April </label>
+
+                    <input type="radio" name="Favorite Month" id="monthMay" value="May">
+                    <label for="monthMay">May</label>
+
+                    <input type="radio" name="Favorite Month" id="monthJune" value="June">
+                    <label for="monthJune">June</label>
+
+                    <input type="radio" name="Favorite Month" id="monthJuly" value="July">
+                    <label for="monthJuly">July</label>
+
+                    <input type="radio" name="Favorite Month" id="monthAugust" value="August">
+                    <label for="monthAugust">August</label>
+
+                    <input type="radio" name="Favorite Month" id="monthSeptember" value="September">
+                    <label for="monthSeptember">September</label>
+
+                    <input type="radio" name="Favorite Month" id="monthOctober" value="October">
+                    <label for="monthOctober">October</label>
+
+                    <input type="radio" name="Favorite Month" id="monthNovember" value="November">
+                    <label for="monthNovember">November</label>
+
+                    <input type="radio" name="Favorite Month" id="monthDecember" value="December">
+                    <label for="monthDecember">December</label>
+
+                    <br>
+                <input type="submit" value="Submit">
+
+            </div>
+
+        </form>
+
+            <!--Ex 1.c-->
+
+        <form>
+
+            <select name ="Favorite Social Media Site" id="favSocialSite" size="6">
+
+                <option value="" disabled selected>Select your Favorite Social Media Site</option>
+                <option value = "Facebook">Facebook</option>
+                <option value = "X">X</option>
+                <option value = "Instagram">Instagram</option>
+                <option value = "Snapchat">Snapchat</option>
+                <option value = "Pinterest">Pinterest</option>
+
+            </select> 
+        
+        </form>        
+
+        <!-- Ex 1.d-->
+    
+        <form>
+
+            <fieldset>
+
+                <legend>Shipping Address</legend>
+
+                <label>Address Line 1
+                    <input type="text" name="Address Line 1" id="AddressLine1">
+                </label>
+
+                <label> Address Line 2
+                    <input type ="text" name="Address Line 2" id="AddressLine2">
+                </label>
+
+                <label> City
+
+                    <input type ="text" name="City" id="City">
+                </label>
+
+                <label> State
+                    <input type =" text" name="State" id="State">
+                </label>
+
+                <label> Zip
+                    <input type ="text" name="Zip" id="Zip">
+                </label>
+
+            </fieldset>
+
+        </form>
+
+        <!-- Ex 1.e-->
+        <form>
+
+            <div id="radio">
+                Favorite Meal:
+
+                <input type = "radio" name ="Favorite Meal" id = "brekfast" value ="Breakfast">
+                <label for = "brekfast"> Breakfast </label>
+
+                <input type = "radio" name ="Favorite Meal" id = "Lunch" value ="Lunch">
+                <label for = "lunch"> Lunch </label>
+
+
+                <input type = "radio" name ="Favorite Meal" id = "dinner" value ="Dinner">
+                <label for = "dinnner"> Dinner </label>
+                
+                <br>
+                <button type="submit">
+
+                 <img src = "signup.png" alt="Submit" width="100px">
+
+                </button>
+
+            </div>
+
+        </form>
+
+         <!-- Ex 1.f-->
+            <input type = "hidden" name = "userid" id = "username">
+
+
+        <!--Ex 1.g-->
+                Password<br>
+            <input type = "password" name = "pword" id = "password">
+
+         <!--Ex 1.h-->
+         <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+            <input type="submit" value="Submit">
+        </form>
+        
+
+
+    </body>    
+
+</html>

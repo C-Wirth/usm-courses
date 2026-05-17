@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <title> CPT 252 | Ch9 | Ex 2</title>
+
+        <meta charset="utf-8">
+
+        <style>
+
+            .wrapper {
+                width: 80%;
+                margin: 0 auto;
+                padding: 20px; 
+                background-color: rgb(161, 190, 252);
+                min-width: 600px;
+                max-width: 1600px;
+            }
+
+            header, footer{
+                text-align: center;
+                background-color: rgb(244, 244, 244);
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class ="wrapper">
+
+            <header> 
+                <h1>Brochure Requests</h1>
+            </header>
+
+            <fieldset style="margin: 25px;">
+
+                <legend>Submit a Brochure Request</legend>
+
+                <label> Name: <input type="text" name ="name" id= "name"> </label>
+                <label> Email: <input type="text" name ="email" id= "email"> </label>
+                <label> Phone Number: <input type="text" name ="phone" id= "phone"> </label>
+                <label> Max Price (USD):<input type="text" name ="priceMax" id= "priceMax"> </label>
+            
+                <br> <br>
+                <label> Start Date: <input type="text" name ="startDate" id= "startDate"> </label>
+                <label> EndDate: <input type="text" name ="endDate" id= "endDate"> </label>
+
+                <br> <br>
+
+                <form>
+
+                    <fieldset>
+            
+                         <legend>Shipping Address</legend>
+            
+                        <label>Address Line 1
+                            <input type="text" name="Address Line 1" id="AddressLine1">
+                        </label>
+            
+                         <label>Address Line 2
+                            <input type ="text" name="Address Line 2" id="AddressLine2">
+                        </label>
+            
+                        <label>City
+                            <input type ="text" name="City" id="City">
+                        </label>
+            
+                        <label> State
+                            <input type =" text" name="State" id="State">
+                        </label>
+            
+                        <label> Zip
+                            <input type ="text" name="Zip" id="Zip">
+                        </label>
+            
+                    </fieldset>
+
+                </form>
+
+                    <br>
+
+                <form>
+
+                    Check the locations for a Brochure: <br>
+
+                    <input type = "checkbox" name ="vacation" id = "cancun" value ="cancun">
+                    <label for = "cancun">Cancun Resort </label>
+
+                    <input type = "checkbox" name ="vacation" id = "aspen" value ="aspen">
+                    <label for = "aspen">Aspen Ski Trip</label>
+
+                    <input type = "checkbox" name ="vacation" id = "hawaii" value ="hawaii">
+                    <label for = "hawaii">Hawaii Paradise</label>
+
+                    <input type = "checkbox" name ="vacation" id = "maine" value ="maine">
+                    <label for = "maine">Maine Getaway Cabin</label>
+
+                    <input type = "checkbox" name ="vacation" id = "nyc" value ="nyc">
+                    <label for = "nyc">NYC Site Seeing</label>
+
+                </form>
+
+            </fieldset>
+            
+            <footer style="padding: 5px;">
+              Expect to receive your Brochure copies within 7-10 Business Days of Shipping
+            </footer>
+
+        </div>
+
+    </body>
+
+</html>

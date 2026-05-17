@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang = 'en'>
+
+<head>
+
+    <title>
+       Colby's Marine Corps Gallery
+    </title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <style>
+
+#wrapper { 
+            background-color: whitesmoke; 
+            height: 100vh; 
+            max-width: 100%;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+        }
+
+        header{
+            background-color: #E9967A;  
+        }
+
+        footer{
+            background-color: #3CB371;       
+        }
+
+        #gallery{ 
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 15% 35% 35% 15%; 
+            gap: 10px; 
+            padding: 25px;
+            background-color: lightsteelblue;
+            justify-content: center;
+        }
+
+        img {
+            width: calc(100% - 10px); 
+            height: calc(100% - 10px); 
+            object-fit: cover;
+            display: block;
+            justify-content: center;
+        }
+
+        a{
+            text-decoration: none;
+            color: #E9967A;
+        }
+
+        .aussie2019{
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+
+        .iralys-huey{
+            grid-row: 1/2;
+            grid-column: 2/3;
+        }
+
+        .trmlnc-plate{
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+
+        .okinawa2021{
+            grid-row: 2/3;
+            grid-column: 2/3;
+        }
+
+        .zamboanga-with-kyle{
+            grid-row: 3/4;
+            grid-column: 1/2;
+        }
+
+        .ira-and-colby{
+            grid-row: 3/4;
+            grid-column: 2/3
+        }
+
+        .july4-2020{
+            grid-row: 4/5;
+            grid-column: 1/2;
+        }
+
+        .pta2020{
+            grid-row: 4/5;
+            grid-column: 2/3;
+        }
+
+        @media (max-width: 600px) {
+
+            #gallery{ 
+            display: grid;
+            grid-template-columns: calc(100% - 10px) ;
+            grid-template-rows: 300px 300px 500px 500px 500px 500px 300px 300px; 
+            gap: 10px; 
+            padding: 10px;
+            background-color: lightsteelblue;
+            justify-content: center;
+        }
+
+        img {
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover;
+        }
+
+        a{
+            text-decoration: none;
+            color: #E9967A;
+        }
+
+        .image1{
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+
+        .image2{
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+
+        .image3{
+            grid-row: 3/4;
+            grid-column: 1/2;
+        }
+
+        .image4{
+            grid-row: 4/5;
+            grid-column: 1/2;
+        }
+
+        .image5{
+            grid-row: 5/6;
+            grid-column: 1/2;
+        }
+
+        .image6{
+            grid-row: 6/7;
+            grid-column: 1/2;
+        }
+
+        .image7{
+            grid-row: 7/8;
+            grid-column: 1/2;
+        }
+
+        .image8{
+            grid-row: 8/9;
+            grid-column: 1/2;
+        }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <header> <h1> Colby's Marine Corps Memories </h1></header>
+
+        <div id ="gallery">
+
+            <img src = "image1.PNG" alt = "4th reg 2019">
+
+            <img src = "image2.JPG" alt = "Iralys Loads Huey">
+
+            <img src = "image3.JPG" alt = "Terminal Lance License Plate from my red mustang">
+
+            <img src = "image4.jpg" alt = "Chris and Colby in Okinawa, 2021">
+
+            <img src = "image5.PNG" alt = "Kyle and Colby in the Philippines in 2022">
+
+            <img src = "image6.JPG" alt = "Iralys and Colby in K-Bay in 2022">
+            
+            <img src = "image7.JPG" alt = "July 4, 2020">
+
+            <img src = "image8.JPG" alt = "Kenny and Colby at PTA in 2020">
+
+        </div>    
+
+        <footer> Contact Colby at his <a href="mailto: colby.wirth@maine.edu"> email</a></footer>
+    
+    </div>
+
+</body>
+
+</html>

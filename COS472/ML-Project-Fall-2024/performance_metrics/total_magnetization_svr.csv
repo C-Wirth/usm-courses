@@ -1,0 +1,4 @@
+Dataset,R-squared,Root Mean Squared Error,Relative RMSE
+Train Set,0.825,4.684,1.242
+Test Set,0.788,5.078,1.322
+Theoretical Set,0.692,7.071,1.185

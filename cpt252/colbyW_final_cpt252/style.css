@@ -1,0 +1,288 @@
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #8B9AFF;
+}
+
+header {
+    font-family: 'Zapfino', 'Segoe Script', cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    background-color: #fff08b;
+    color: black;
+    padding: 2vw;
+    margin-top: 0;
+    line-height: 1;
+    font-size: 2vw;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px;
+    text-shadow: 0.25vw 0.25vw 0 rgba(255, 255, 255, 1);
+    font-size: 5vw;
+}
+
+h2 {
+    font-family: 'Zapfino', 'Segoe Script', cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    color: black;
+    margin: 6vw;
+    line-height: 1;
+    font-size: 5vw;
+    text-shadow: 0.25vw 0.25vw 0.125vw rgba(139, 154, 255, 0.5)
+}
+
+h3{
+    font-family: 'Zapfino', 'Segoe Script', cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    color: black;
+    margin: 5vw;
+    line-height: 1;
+    font-size: 4vw;
+    text-shadow: 0.25vw 0.25vw 0.125vw rgba(139, 154, 255, 0.5)
+
+}
+
+
+
+nav {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 2vw 0.25vw 2vw 0.25vw;
+    color: white;
+    font-size: 2vw;
+    background-color: #8B9AFF;
+}
+
+nav a {
+    color: white;
+}
+
+#nav-left {
+    grid-column: 1/2;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2.5vw;
+}
+
+#nav-center {
+    grid-column: 2/3;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.dropdown .dropbutton {
+    font-size: inherit;
+    border: none;
+    outline: none;
+    color: inherit;
+    background-color: inherit;
+    padding: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8B9AFF;
+    box-shadow: 0 1vw 2vw 0 rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    color: inherit;
+    padding: 1vw 1vw;
+    text-decoration: none;
+    text-align: left;
+    z-index: 2;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#gallery {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+#gallery img {
+    width: calc(100% - 10px);
+    height: auto;
+    margin: 0 auto;
+}
+
+#gallery a {
+    color: #fff08b;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    background-color: #8B9AFF;
+    color: white;
+    padding: 1.5vw;
+    font-size: 1.5vw;
+    margin: 0;
+}
+
+#footer-left {
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+}
+
+#footer-center a {
+    grid-column: 2/3;
+    color: white;
+    text-decoration: underline;
+}
+
+#footer-center h6 {
+    margin-bottom: 0;
+}
+
+
+.igIcon {
+    width: 5vw;
+    height: 5vw;
+    object-fit: fill;
+    display: block;
+}
+
+#bookMe {
+    align-items: center;
+    justify-content: center;
+    background-color: #fff08b;
+    font-family: 'Zapfino', 'Segoe Script', cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 1vw 2vw 0 rgba(0, 0, 0, 0.25);
+    font-size: 1.25vw;
+    margin: 5vw 5vw 7.2vw 5.5vw;
+    padding: 1.5vw;
+}
+
+#bookMe:hover {
+    box-shadow: 0 1vw 2vw 0 rgba(0, 0, 0, 0.5);
+    font-size: 2.5vw;
+    margin: 2.5vw;
+    padding: 3vw;
+}
+
+#bookMe a {
+    color: black;
+    text-shadow: 0.1vw 0.1vw 0 rgba(255, 255, 255, 1);
+}
+
+form{
+    text-align: left;
+    margin: auto 1vw 1vw 1vw;
+    width: 50%;
+}    
+
+.col1{
+    text-align: left;
+}
+
+
+
+@media (max-width: 767px) {
+    /*Phones and small Tablets*/
+
+   
+    h1 {
+        font-size: 9vw;
+    }
+
+    header,
+    nav,
+    #welcome1,
+    .dropbutton {
+        font-size: 3vw;
+    }
+
+    #nav-center {
+        line-height: 6vw;
+    }
+
+    button,
+    .dropbutton,
+    .dropdown {
+        font-size: 3vw;
+    }
+
+    #welcome1Header {
+        font-size: 5vw;
+    }
+
+    #welcome1 {
+        margin-bottom: 5vw;
+    }
+
+    #gallery {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        margin-bottom: 0px;
+    }
+
+    footer {
+        font-size: 2vw;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    #bookMe a {
+        font-size: 3vw;
+        margin: 9.9vw;
+        padding: 2.5vw;
+    }
+
+    form{
+        text-align: left;
+        margin: auto 1vw 1vw 1vw;
+        width: 90%;
+    }    
+    
+}
+
+@media (min-width: 1400px) {
+    /*Desktops */
+
+    #gallery {
+        width: 80%;
+        margin: 10px auto 10px auto;
+    }
+
+    #welcome1 {
+        padding: 1.25vw;
+        font-size: 1.25vw;
+    }
+
+    header {
+        padding-top: 1vw;
+    }
+
+}

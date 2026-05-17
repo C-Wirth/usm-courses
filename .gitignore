@@ -1,0 +1,459 @@
+# =========================================================
+# Universal .gitignore
+# Covers:
+#   - Python
+#   - Java
+#   - Jupyter / IPython
+#   - macOS / Linux / Windows
+#   - IDEs and editors
+#   - Build artifacts
+#   - Virtual environments
+#   - Logs and caches
+# =========================================================
+
+
+# =========================================================
+# OS GENERATED FILES
+# =========================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+
+# =========================================================
+# GENERAL LOGS / CACHE
+# =========================================================
+
+*.log
+logs/
+log/
+
+.cache/
+.cache-loader/
+
+tmp/
+temp/
+
+*.pid
+*.seed
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Profiling
+.prof
+*.prof
+
+# Benchmark artifacts
+benchmarks/
+
+
+# =========================================================
+# PYTHON
+# =========================================================
+
+# Bytecode / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Native extensions
+*.so
+*.pyd
+*.dll
+*.dylib
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# pyenv
+.python-version
+
+# Poetry
+poetry.lock
+
+# Pipenv
+Pipfile.lock
+
+# Conda
+.conda/
+conda-meta/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyright
+.pyright/
+
+# Ruff
+.ruff_cache/
+
+# Pyre
+.pyre/
+
+# Pytype
+.pytype/
+
+# Pylint
+.pylint.d/
+
+# Pytest
+.pytest_cache/
+
+# Hypothesis
+.hypothesis/
+
+# Tox / Nox
+.tox/
+.nox/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Celery
+celerybeat-schedule
+
+# SageMath
+*.sage.py
+
+# Environments
+.env
+.env.*
+*.env
+
+# Secrets
+secrets.json
+credentials.json
+
+# Flask
+instance/
+.webassets-cache/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+
+# FastAPI / Uvicorn
+uvicorn*.log
+
+# PyInstaller
+*.manifest
+*.spec
+
+# PEP 582
+__pypackages__/
+
+
+# =========================================================
+# JUPYTER / NOTEBOOKS
+# =========================================================
+
+# Notebook autosaves
+*.ipynb_checkpoints
+
+# Exported notebooks
+*.nbconvert.ipynb
+
+# Large notebook outputs
+notebook-output/
+
+# JupyterLab
+.jupyter/lab/workspaces/
+
+# Jupyter runtime
+.jupyter/runtime/
+
+# IPython history
+.ipython/
+
+
+# =========================================================
+# JAVA
+# =========================================================
+
+# Compiled class files
+*.class
+
+# Java archives
+*.jar
+*.war
+*.nar
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# Build directories
+target/
+out/
+build/
+bin/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Maven
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ project files
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code Java
+.settings.json
+
+# Java docs
+apidocs/
+
+
+# =========================================================
+# C / C++ (often used with JNI or Python extensions)
+# =========================================================
+
+*.o
+*.obj
+*.a
+*.lib
+*.out
+*.exe
+
+
+# =========================================================
+# DATASETS / GENERATED DATA
+# =========================================================
+
+# Large binary formats
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# Serialized objects
+*.pkl
+*.pickle
+*.joblib
+
+
+# =========================================================
+# MACHINE LEARNING / EXPERIMENT TRACKING
+# =========================================================
+
+# TensorBoard
+runs/
+events.out.tfevents.*
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+
+# DVC
+.dvc/
+.dvcignore
+
+# Ray
+ray_results/
+
+
+# =========================================================
+# EDITORS / IDEs
+# =========================================================
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+Session.vim
+
+# Emacs
+*~
+\#*\#
+
+# Kate
+.kate-swp
+
+# Spyder
+.spyproject/
+
+# Rope
+.ropeproject/
+
+
+# =========================================================
+# TESTING
+# =========================================================
+
+nosetests.xml
+junit.xml
+test-results/
+pytestdebug.log
+
+
+# =========================================================
+# DOCUMENTATION
+# =========================================================
+
+docs/_build/
+
+# MkDocs
+site/
+
+
+# =========================================================
+# PACKAGE MANAGERS / TOOLING
+# =========================================================
+
+# npm (sometimes used in Jupyter extensions or Java tooling)
+node_modules/
+
+# Yarn
+.yarn/
+
+# pnpm
+.pnpm-store/
+
+# Bun
+.bun/
+
+
+# =========================================================
+# CONTAINERS / DEV ENVIRONMENTS
+# =========================================================
+
+# Docker
+docker-compose.override.yml
+
+# Dev Containers
+.devcontainer/
+
+# Vagrant
+.vagrant/
+
+
+# =========================================================
+# TERRAFORM / CLOUD
+# =========================================================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# AWS
+.aws/
+
+# GCP
+.gcloud/
+
+# Azure
+.azure/
+
+
+# =========================================================
+# SECURITY / LOCAL CONFIG
+# =========================================================
+
+# Private keys
+*.pem
+*.key
+*.crt
+
+# SSH
+.ssh/
+
+# Local config overrides
+config.local.*
+settings.local.*
+
+# dotenv
+.envrc

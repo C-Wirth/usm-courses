@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        
+        <title>
+            CPT 252 | Ch9 | Ex 4
+        </title>
+
+        <meta charset="utf-8">
+
+        <style>
+
+            .wrapper {
+                width: 80%;
+                margin: 0 auto;
+                padding: 20px; 
+                background-color: rgb(246, 246, 246);
+                min-width: 600px;
+                max-width: 1600px;
+            }
+
+            header, footer{
+                text-align: center;
+                background-color: rgb(244, 244, 244);
+            }
+
+            footer{
+                padding: 5px;
+            }
+
+            fieldset{
+                width: min-content;
+                margin: 20px;
+            }
+
+            input{
+                margin-bottom: 20px
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class = "wrapper">
+
+            <header> <h1>User's Data Forum</h1></header>
+            <fieldset>
+
+                <legend>User Info</legend>
+
+                <label for="name">First and Last Name:</label>               
+                <input type="text" name="name" id="name" maxlength="30">
+
+                <label for="email">Email:</label>               
+                <input type="email" name="email" id="email" maxlength="30">
+
+                <label for="birthday">Birthday:</label>               
+                <input type="date" name="birthday" id="birthday">
+
+            </fieldset>
+
+            <footer>
+                Email Colby with additional questions: <a href="mailto:colby.wirth@maine.edu">colby.wirth@maine.edu</a>
+            </footer>
+
+        </div>
+
+    </body>
+
+</html>
